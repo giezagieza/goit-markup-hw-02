@@ -66,10 +66,24 @@ body {
   list-style: none;
 }
 
+.filters-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-pressed-state);
+  background-color: var(--color-light);
+}
+
 .filters-button:hover {
   font-family: inherit;
   cursor: pointer;
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .filters-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
 }
