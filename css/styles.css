@@ -32,6 +32,14 @@ body {
   text-decoration: none;
 }
 
+.link:hover {
+  color: #404bbf;
+}
+
+.link:focus {
+  color: #404bbf;
+}
+
 .index-link {
   font-weight: 500;
   font-size: 16px;
@@ -40,7 +48,17 @@ body {
   color: var(--color-modal-overlay);
 }
 
-.span {
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+}
+
+.logo-studio {
   color: var(--color-modal-overlay);
 }
 
