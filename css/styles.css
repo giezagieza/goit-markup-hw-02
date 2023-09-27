@@ -1,11 +1,23 @@
 :root {
   --color-primary-brand: #4d5a45;
+  --color-pressed-state: #4d5ae5;
+  --color-dark: #2e2f42;
+  --color-success: #31d0aa;
+  --color-text: ##434455;
+  --color-subtle-text: ##8e8f99;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-modal-overlay: #2e2f42;
+  --color-white-background: #ffffff;
+  --color-modal-background: #ecf1f4;
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -13,7 +25,29 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--color-pressed-state);
 }
+
+.link {
+  text-decoration: none;
+}
+
+.index-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-modal-overlay);
+}
+
+.span {
+  color: var(--color-modal-overlay);
+}
+
+.list {
+  list-style: none;
+}
+
 .filters-button:hover {
   font-family: inherit;
   cursor: pointer;
