@@ -74,11 +74,11 @@ body {
   letter-spacing: 0.04em;
   color: var(--color-pressed-state);
   background-color: var(--color-light);
+  cursor: pointer;
 }
 
 .filters-button:hover {
   font-family: inherit;
-  cursor: pointer;
   color: #ffffff;
   background-color: #404bbf;
 }
