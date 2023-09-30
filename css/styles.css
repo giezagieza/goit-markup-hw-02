@@ -3,7 +3,7 @@
   --color-pressed-state: #4d5ae5;
   --color-dark: #2e2f42;
   --color-success: #31d0aa;
-  --color-text: ##434455;
+  --color-text: #434455;
   --color-subtle-text: ##8e8f99;
   --color-accent: #e7e9fc;
   --color-light: #f4f4fd;
@@ -175,3 +175,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-dark);
 }
+
+.introduction-photo-list {
+  background-color: #ffffff;
+}
+
+
