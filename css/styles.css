@@ -167,3 +167,11 @@ body {
 .section-background {
   background-color: #f4f4fd;
 }
+
+.list-images-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
